@@ -1,0 +1,809 @@
+[20870.388737] type=1400 audit(1558326486.378:13614): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20876.997223] max_timeout is 50000
+[20877.028311] max_timeout is 50000
+[20877.603785] max_timeout is 50000
+[20877.635903] max_timeout is 50000
+[20879.076611] type=1400 audit(1558326486.378:13614): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20879.076635] type=1400 audit(1558326495.058:13615): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20879.076838] type=1400 audit(1558326495.058:13615): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20879.076857] type=1400 audit(1558326495.058:13616): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20879.165425] type=1400 audit(1558326495.058:13616): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20879.166318] type=1400 audit(1558326495.148:13617): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20879.264506] type=1400 audit(1558326495.148:13617): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20879.264533] type=1400 audit(1558326495.248:13618): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20882.128261] type=1400 audit(1558326495.248:13618): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20882.128286] type=1400 audit(1558326498.118:13619): avc: denied { read } for pid=506 comm="imsqmidaemon" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20882.955102] healthd: battery l=48 v=3777 t=38.7 h=2 st=3 c=450 fc=3000 chg=
+[20885.719087] type=1400 audit(1558326498.118:13619): avc: denied { read } for pid=506 comm="imsqmidaemon" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20885.719115] type=1400 audit(1558326501.708:13620): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20887.519501] type=1400 audit(1558326501.708:13620): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20887.519545] type=1400 audit(1558326503.508:13621): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20888.356720] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20888.356733] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20888.356755] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20888.356769] ->action():           (null)
+[20888.356774] IRQ_NOPROBE set
+[20888.356779] IRQ_NOREQUEST set
+[20888.356784] IRQ_NOTHREAD set
+[20889.896428] type=1400 audit(1558326503.508:13621): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20889.896757] type=1400 audit(1558326505.878:13622): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20895.890007] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20895.890031] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20895.890059] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20895.890073] ->action():           (null)
+[20895.890078] IRQ_NOPROBE set
+[20895.890083] IRQ_NOREQUEST set
+[20895.890088] IRQ_NOTHREAD set
+[20899.819131] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20899.819144] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20899.819163] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20899.819176] ->action():           (null)
+[20899.819182] IRQ_NOPROBE set
+[20899.819187] IRQ_NOREQUEST set
+[20899.819192] IRQ_NOTHREAD set
+[20911.393756] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20911.393774] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20911.393799] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20911.393815] ->action():           (null)
+[20911.393821] IRQ_NOPROBE set
+[20911.393826] IRQ_NOREQUEST set
+[20911.393831] IRQ_NOTHREAD set
+[20911.405513] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20911.405529] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20911.405550] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20911.405563] ->action():           (null)
+[20911.405568] IRQ_NOPROBE set
+[20911.405574] IRQ_NOREQUEST set
+[20911.405578] IRQ_NOTHREAD set
+[20913.561238] type=1400 audit(1558326505.878:13622): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20913.561267] type=1400 audit(1558326529.548:13623): avc: denied { ioctl } for pid=449 comm="writer" path="/dev/msm_audio_cal" dev="tmpfs" ino=5210 ioctlcmd=61cb scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20913.588355] q6asm_callback: payload size of 8 is less than expected.
+[20913.589209] q6asm_callback: payload size of 8 is less than expected.
+[20913.589630] q6asm_callback: payload size of 8 is less than expected.
+[20913.637454] q6asm_callback: payload size of 8 is less than expected.
+[20914.005676] type=1400 audit(1558326529.548:13623): avc: denied { ioctl } for pid=449 comm="writer" path="/dev/msm_audio_cal" dev="tmpfs" ino=5210 ioctlcmd=61cb scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20914.006053] type=1400 audit(1558326529.988:13624): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20914.370475] type=1400 audit(1558326529.988:13624): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20914.370504] type=1400 audit(1558326530.358:13625): avc: denied { read write } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20915.721459] type=1400 audit(1558326530.358:13625): avc: denied { read write } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20915.721487] type=1400 audit(1558326531.708:13626): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20916.595659] q6asm_callback: payload size of 8 is less than expected.
+[20917.258557] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20917.258574] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20917.258601] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20917.258621] ->action():           (null)
+[20917.258626] IRQ_NOPROBE set
+[20917.258632] IRQ_NOREQUEST set
+[20917.258637] IRQ_NOTHREAD set
+[20927.640405] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20927.640418] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20927.640436] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20927.640450] ->action():           (null)
+[20927.640455] IRQ_NOPROBE set
+[20927.640460] IRQ_NOREQUEST set
+[20927.640465] IRQ_NOTHREAD set
+[20947.587358] healthd: battery l=48 v=3794 t=38.8 h=2 st=3 c=306 fc=3000 chg=
+[20953.358240] max_timeout is 50000
+[20953.389686] max_timeout is 50000
+[20953.597616] type=1400 audit(1558326531.708:13626): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20953.597648] type=1400 audit(1558326569.578:13627): avc: denied { read } for pid=5066 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20953.597852] type=1400 audit(1558326569.578:13627): avc: denied { read } for pid=5066 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20953.597939] type=1400 audit(1558326569.578:13628): avc: denied { open } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20953.598098] type=1400 audit(1558326569.578:13628): avc: denied { open } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20953.598117] type=1400 audit(1558326569.578:13629): avc: denied { getattr } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20954.126550] type=1400 audit(1558326569.578:13629): avc: denied { getattr } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20954.126613] type=1400 audit(1558326570.108:13630): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20954.132053] type=1400 audit(1558326570.108:13630): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20954.132082] type=1400 audit(1558326570.118:13631): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20954.280245] type=1400 audit(1558326570.118:13631): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20954.280271] type=1400 audit(1558326570.268:13632): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20954.291457] type=1400 audit(1558326570.268:13632): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20954.291483] type=1400 audit(1558326570.268:13633): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20954.291666] type=1400 audit(1558326570.268:13633): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20954.291681] type=1400 audit(1558326570.268:13634): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20955.200411] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20955.200426] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20955.200446] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20955.200458] ->action():           (null)
+[20955.200464] IRQ_NOPROBE set
+[20955.200469] IRQ_NOREQUEST set
+[20955.200474] IRQ_NOTHREAD set
+[20955.475115] bq27426- fg_dump_registers: BQ27426 --RSOC:48, Volt:3764, Current:-569, Temperature:389
+[20955.475132] bq27426- fg_dump_registers: Reg[00 -70] = 0x0202, 0x0C2F, 0x0EB4, 0x0109, 0x0501, 0x0A4A, 0x0495, 0x09BA, 0xFDC7, 0x0AD7, 0xF7A2, 0x2114, 0x0030, 0x0C51, 0x0052, 0x04A7, 0x0495, 0x09F0, 0x09BA, 0x002F, 0x01DA, 0x01E0, 0x054A, 0xFFFF, 0x3C8C, 
+[20955.993055] bq2560x: bq2560x_dump_status: FG current:455000
+[20955.993067] bq2560x: bq2560x_dump_status: bq Reg[0x00 -0x0B] = 0x13, 0x0A, 0x19, 0x30, 0x88, 0x8F, 0x55, 0x4C, 0x00, 0x00, 0x03, 0x11, 
+[20958.678203] max_timeout is 50000
+[20958.709390] max_timeout is 50000
+[20958.757476] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20958.757490] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20958.757510] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20958.757522] ->action():           (null)
+[20958.757528] IRQ_NOPROBE set
+[20958.757533] IRQ_NOREQUEST set
+[20958.757538] IRQ_NOTHREAD set
+[20961.973456] max_timeout is 50000
+[20962.005150] max_timeout is 50000
+[20972.423558] type=1400 audit(1558326570.268:13634): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20972.423587] type=1400 audit(1558326588.408:13635): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20972.423823] type=1400 audit(1558326588.408:13635): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20972.423842] type=1400 audit(1558326588.408:13636): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20972.476742] type=1400 audit(1558326588.408:13636): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[20972.476762] type=1400 audit(1558326588.458:13637): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20972.504328] type=1400 audit(1558326588.458:13637): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20972.504348] type=1400 audit(1558326588.488:13638): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20972.526689] type=1400 audit(1558326588.488:13638): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20972.526709] type=1400 audit(1558326588.508:13639): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20972.526851] type=1400 audit(1558326588.508:13639): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20972.526863] type=1400 audit(1558326588.508:13640): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20972.526950] type=1400 audit(1558326588.508:13640): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20972.526962] type=1400 audit(1558326588.508:13641): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20973.460047] max_timeout is 50000
+[20973.491378] max_timeout is 50000
+[20975.030490] rmt_storage:INFO:rmt_storage_rw_iovec_cb: Write iovec request received for /boot/modem_fs2
+[20975.030788] rmt_storage:INFO:rmt_storage_client_thread: Calling Write [offset=0, size=1572864]for /boot/modem_fs2!
+[20975.035538] type=1400 audit(1558326588.508:13641): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20975.035562] type=1400 audit(1558326591.018:13642): avc: denied { block_suspend } for pid=484 comm="rmt_storage" capability=36 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability2 permissive=1
+[20975.096730] rmt_storage:INFO:rmt_storage_client_thread: Done Write (bytes = 1572864) for /boot/modem_fs2!
+[20975.098374] type=1400 audit(1558326591.078:13643): avc: denied { block_suspend } for pid=484 comm="rmt_storage" capability=36 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability2 permissive=1
+[20975.098400] type=1400 audit(1558326591.088:13644): avc: denied { read } for pid=471 comm="android.hardwar" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[20977.283774] max_timeout is 50000
+[20977.315688] max_timeout is 50000
+[20977.379307] type=1400 audit(1558326591.088:13644): avc: denied { read } for pid=471 comm="android.hardwar" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[20977.379334] type=1400 audit(1558326593.368:13645): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20977.409379] type=1400 audit(1558326593.368:13645): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20977.409409] type=1400 audit(1558326593.398:13646): avc: denied { read } for pid=17663 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.413008] type=1400 audit(1558326593.398:13646): avc: denied { read } for pid=17663 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.413053] type=1400 audit(1558326593.398:13647): avc: denied { open } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.413547] type=1400 audit(1558326593.398:13647): avc: denied { open } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.413574] type=1400 audit(1558326593.398:13648): avc: denied { getattr } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.428229] type=1400 audit(1558326593.398:13648): avc: denied { getattr } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.429253] type=1400 audit(1558326593.418:13649): avc: denied { read } for pid=2320 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.429580] type=1400 audit(1558326593.418:13649): avc: denied { read } for pid=2320 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.429598] type=1400 audit(1558326593.418:13650): avc: denied { open } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.431614] type=1400 audit(1558326593.418:13650): avc: denied { open } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.431639] type=1400 audit(1558326593.418:13651): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20977.431739] type=1400 audit(1558326593.418:13651): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20977.431752] type=1400 audit(1558326593.418:13652): avc: denied { getattr } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.442365] type=1400 audit(1558326593.418:13652): avc: denied { getattr } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20977.442386] type=1400 audit(1558326593.418:13653): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20977.742331] q6asm_callback: payload size of 8 is less than expected.
+[20977.745628] q6asm_callback: payload size of 8 is less than expected.
+[20977.792597] q6asm_callback: payload size of 8 is less than expected.
+[20977.825558] q6asm_callback: payload size of 8 is less than expected.
+[20977.946002] type=1400 audit(1558326593.418:13653): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20977.946027] type=1400 audit(1558326593.928:13654): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20978.065431] type=1400 audit(1558326593.928:13654): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20978.065474] type=1400 audit(1558326594.048:13655): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20978.068017] type=1400 audit(1558326594.048:13655): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20978.068053] type=1400 audit(1558326594.048:13656): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20978.068268] type=1400 audit(1558326594.048:13656): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20978.068288] type=1400 audit(1558326594.048:13657): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20978.618001] type=1400 audit(1558326594.048:13657): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20978.618036] type=1400 audit(1558326594.598:13658): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20985.431153] type=1400 audit(1558326594.598:13658): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20985.431182] type=1400 audit(1558326601.418:13659): avc: denied { read } for pid=463 comm="HWC_UeventThrea" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=netlink_kobject_uevent_socket permissive=1
+[20985.438385] healthd: battery l=47 v=3800 t=38.6 h=2 st=3 c=194 fc=3000 chg=
+[20985.736335] type=1400 audit(1558326601.418:13659): avc: denied { read } for pid=463 comm="HWC_UeventThrea" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=netlink_kobject_uevent_socket permissive=1
+[20985.736367] type=1400 audit(1558326601.718:13660): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20991.925698] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[20991.925712] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[20991.925735] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[20991.925749] ->action():           (null)
+[20991.925754] IRQ_NOPROBE set
+[20991.925760] IRQ_NOREQUEST set
+[20991.925765] IRQ_NOTHREAD set
+[20992.866283] type=1400 audit(1558326601.718:13660): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20992.866306] type=1400 audit(1558326608.848:13661): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20993.584278] type=1400 audit(1558326608.848:13661): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[20993.584306] type=1400 audit(1558326609.568:13662): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=945 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.585931] type=1400 audit(1558326609.568:13662): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=945 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.585960] type=1400 audit(1558326609.568:13663): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.636474] type=1400 audit(1558326609.568:13663): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.636498] type=1400 audit(1558326609.618:13664): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.665965] q6asm_callback: payload size of 8 is less than expected.
+[20993.666064] event_handler: reclaimed all bufs
+[20993.666120] q6asm_callback: payload size of 8 is less than expected.
+[20993.670285] q6asm_callback: payload size of 8 is less than expected.
+[20993.698655] type=1400 audit(1558326609.618:13664): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.698679] type=1400 audit(1558326609.688:13665): avc: denied { read } for pid=463 comm="HWC_UeventThrea" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=netlink_kobject_uevent_socket permissive=1
+[20993.816591] type=1400 audit(1558326609.688:13665): avc: denied { read } for pid=463 comm="HWC_UeventThrea" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=netlink_kobject_uevent_socket permissive=1
+[20993.816616] type=1400 audit(1558326609.798:13666): avc: denied { read write } for pid=23964 comm="RenderThread" name="kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.816784] type=1400 audit(1558326609.798:13666): avc: denied { read write } for pid=23964 comm="RenderThread" name="kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.816798] type=1400 audit(1558326609.798:13667): avc: denied { open } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.819222] type=1400 audit(1558326609.798:13667): avc: denied { open } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.819248] type=1400 audit(1558326609.798:13668): avc: denied { ioctl } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=940 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.821011] type=1400 audit(1558326609.798:13668): avc: denied { ioctl } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=940 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20993.821034] type=1400 audit(1558326609.808:13669): avc: denied { read } for pid=23964 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.821204] type=1400 audit(1558326609.808:13669): avc: denied { read } for pid=23964 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.821219] type=1400 audit(1558326609.808:13670): avc: denied { open } for pid=23964 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.821316] type=1400 audit(1558326609.808:13670): avc: denied { open } for pid=23964 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.821330] type=1400 audit(1558326609.808:13671): avc: denied { getattr } for pid=23964 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.824931] type=1400 audit(1558326609.808:13671): avc: denied { getattr } for pid=23964 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.824955] type=1400 audit(1558326609.808:13672): avc: denied { execute } for pid=23964 comm="RenderThread" path="/vendor/lib64/libqdMetaData.so" dev="mmcblk0p48" ino=2779 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.831671] type=1400 audit(1558326609.808:13672): avc: denied { execute } for pid=23964 comm="RenderThread" path="/vendor/lib64/libqdMetaData.so" dev="mmcblk0p48" ino=2779 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20993.831696] type=1400 audit(1558326609.818:13673): avc: denied { read } for pid=23964 comm="RenderThread" name="gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20993.831849] type=1400 audit(1558326609.818:13673): avc: denied { read } for pid=23964 comm="RenderThread" name="gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20993.831863] type=1400 audit(1558326609.818:13674): avc: denied { open } for pid=23964 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20993.831957] type=1400 audit(1558326609.818:13674): avc: denied { open } for pid=23964 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20993.831972] type=1400 audit(1558326609.818:13675): avc: denied { getattr } for pid=23964 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20993.882560] type=1400 audit(1558326609.818:13675): avc: denied { getattr } for pid=23964 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20993.882589] type=1400 audit(1558326609.868:13676): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.005347] type=1400 audit(1558326609.868:13676): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.005370] type=1400 audit(1558326609.988:13677): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.107753] type=1400 audit(1558326609.988:13677): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.107773] type=1400 audit(1558326610.098:13678): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.437191] type=1400 audit(1558326610.098:13678): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.437215] type=1400 audit(1558326610.418:13679): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.924813] type=1400 audit(1558326610.418:13679): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20994.924850] type=1400 audit(1558326610.908:13680): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20994.925059] type=1400 audit(1558326610.908:13680): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20994.925076] type=1400 audit(1558326610.908:13681): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20995.165108] type=1400 audit(1558326610.908:13681): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20995.165138] type=1400 audit(1558326611.148:13682): avc: denied { read } for pid=496 comm="netmgrd" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20995.167237] type=1400 audit(1558326611.148:13682): avc: denied { read } for pid=496 comm="netmgrd" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20995.167259] type=1400 audit(1558326611.148:13683): avc: denied { ioctl } for pid=496 comm="netmgrd" path="socket:[935203]" dev="sockfs" ino=935203 ioctlcmd=89fb scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+[20995.374152] init: Untracked pid 23990 exited with status 0
+[20995.390178] type=1400 audit(1558326611.148:13683): avc: denied { ioctl } for pid=496 comm="netmgrd" path="socket:[935203]" dev="sockfs" ino=935203 ioctlcmd=89fb scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+[20995.390200] type=1400 audit(1558326611.378:13684): avc: denied { ioctl } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20995.648726] type=1400 audit(1558326611.378:13684): avc: denied { ioctl } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20995.648750] type=1400 audit(1558326611.638:13685): avc: denied { ioctl } for pid=496 comm="netmgrd" path="socket:[936374]" dev="sockfs" ino=936374 ioctlcmd=89fa scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+[20995.747772] type=1400 audit(1558326611.638:13685): avc: denied { ioctl } for pid=496 comm="netmgrd" path="socket:[936374]" dev="sockfs" ino=936374 ioctlcmd=89fa scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=udp_socket permissive=1
+[20995.747793] type=1400 audit(1558326611.738:13686): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20995.748211] type=1400 audit(1558326611.738:13686): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20995.748229] type=1400 audit(1558326611.738:13687): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20995.748341] type=1400 audit(1558326611.738:13687): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[20995.748353] type=1400 audit(1558326611.738:13688): avc: denied { read } for pid=471 comm="HwBinder:471_1" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[20995.975714] type=1400 audit(1558326611.738:13688): avc: denied { read } for pid=471 comm="HwBinder:471_1" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[20995.975737] type=1400 audit(1558326612.117:13689): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20995.990604] type=1400 audit(1558326612.117:13689): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20995.990624] type=1400 audit(1558326612.137:13690): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.024496] type=1400 audit(1558326612.137:13690): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.024516] type=1400 audit(1558326612.167:13691): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.024681] type=1400 audit(1558326612.167:13691): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.024696] type=1400 audit(1558326612.167:13692): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.111810] type=1400 audit(1558326612.167:13692): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.111845] type=1400 audit(1558326612.257:13693): avc: denied { read write } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.140919] type=1400 audit(1558326612.257:13693): avc: denied { read write } for pid=23964 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.140944] type=1400 audit(1558326612.287:13694): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.306037] type=1400 audit(1558326612.287:13694): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.306057] type=1400 audit(1558326612.447:13695): avc: denied { open } for pid=24116 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.311961] type=1400 audit(1558326612.447:13695): avc: denied { open } for pid=24116 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20996.311983] type=1400 audit(1558326612.457:13696): avc: denied { read } for pid=24116 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.312450] type=1400 audit(1558326612.457:13696): avc: denied { read } for pid=24116 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.312465] type=1400 audit(1558326612.457:13697): avc: denied { open } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.312811] type=1400 audit(1558326612.457:13697): avc: denied { open } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.312826] type=1400 audit(1558326612.457:13698): avc: denied { getattr } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.315086] type=1400 audit(1558326612.457:13698): avc: denied { getattr } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.315110] type=1400 audit(1558326612.457:13699): avc: denied { execute } for pid=24116 comm="RenderThread" path="/vendor/lib64/libgrallocutils.so" dev="mmcblk0p48" ino=2811 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.322205] type=1400 audit(1558326612.457:13699): avc: denied { execute } for pid=24116 comm="RenderThread" path="/vendor/lib64/libgrallocutils.so" dev="mmcblk0p48" ino=2811 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[20996.322228] type=1400 audit(1558326612.467:13700): avc: denied { read } for pid=24116 comm="RenderThread" name="gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.323338] type=1400 audit(1558326612.467:13700): avc: denied { read } for pid=24116 comm="RenderThread" name="gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.323362] type=1400 audit(1558326612.467:13701): avc: denied { open } for pid=24116 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.325710] type=1400 audit(1558326612.467:13701): avc: denied { open } for pid=24116 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20996.325733] type=1400 audit(1558326612.467:13702): avc: denied { getattr } for pid=24116 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20997.146959] type=1400 audit(1558326612.467:13702): avc: denied { getattr } for pid=24116 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[20997.146989] type=1400 audit(1558326613.287:13703): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20999.914638] type=1400 audit(1558326613.287:13703): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[20999.914662] type=1400 audit(1558326616.057:13704): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20999.914843] type=1400 audit(1558326616.057:13704): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20999.914860] type=1400 audit(1558326616.057:13705): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20999.914966] type=1400 audit(1558326616.057:13705): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[20999.914980] type=1400 audit(1558326616.057:13706): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21000.615715] max_timeout is 50000
+[21000.646417] max_timeout is 50000
+[21000.701638] type=1400 audit(1558326616.057:13706): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21000.701662] type=1400 audit(1558326616.847:13707): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21000.713281] type=1400 audit(1558326616.847:13707): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21000.713307] type=1400 audit(1558326616.857:13708): avc: denied { read } for pid=17663 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.713484] type=1400 audit(1558326616.857:13708): avc: denied { read } for pid=17663 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.713502] type=1400 audit(1558326616.857:13709): avc: denied { open } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.713615] type=1400 audit(1558326616.857:13709): avc: denied { open } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.713632] type=1400 audit(1558326616.857:13710): avc: denied { getattr } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.737282] type=1400 audit(1558326616.857:13710): avc: denied { getattr } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.737306] type=1400 audit(1558326616.877:13711): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21000.740799] type=1400 audit(1558326616.877:13711): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21000.740824] type=1400 audit(1558326616.887:13712): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21000.778460] type=1400 audit(1558326616.887:13712): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21000.778488] type=1400 audit(1558326616.917:13713): avc: denied { read } for pid=2320 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.779014] type=1400 audit(1558326616.917:13713): avc: denied { read } for pid=2320 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.779047] type=1400 audit(1558326616.917:13714): avc: denied { open } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.779198] type=1400 audit(1558326616.917:13714): avc: denied { open } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.780530] type=1400 audit(1558326616.917:13715): avc: denied { getattr } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.794862] type=1400 audit(1558326616.917:13715): avc: denied { getattr } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21000.794889] type=1400 audit(1558326616.937:13716): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.041604] type=1400 audit(1558326616.937:13716): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.041625] type=1400 audit(1558326617.187:13717): avc: denied { ioctl } for pid=449 comm="reader" path="/dev/msm_audio_cal" dev="tmpfs" ino=5210 ioctlcmd=61cb scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.067705] q6asm_callback: payload size of 8 is less than expected.
+[21001.068372] q6asm_callback: payload size of 8 is less than expected.
+[21001.116525] q6asm_callback: payload size of 8 is less than expected.
+[21001.149772] q6asm_callback: payload size of 8 is less than expected.
+[21001.266763] type=1400 audit(1558326617.187:13717): avc: denied { ioctl } for pid=449 comm="reader" path="/dev/msm_audio_cal" dev="tmpfs" ino=5210 ioctlcmd=61cb scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.266785] type=1400 audit(1558326617.407:13718): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.274282] type=1400 audit(1558326617.407:13718): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.274304] type=1400 audit(1558326617.417:13719): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21001.316733] logd: logdr: UID=10031 GID=10031 PID=13275 n tail=0 logMask=4 pid=0 start=1558326616886000000ns timeout=1558333817471255570ns
+[21003.247867] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[21003.247883] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[21003.247905] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[21003.247919] ->action():           (null)
+[21003.247925] IRQ_NOPROBE set
+[21003.247930] IRQ_NOREQUEST set
+[21003.247935] IRQ_NOTHREAD set
+[21003.469958] q6asm_callback: payload size of 8 is less than expected.
+[21003.470010] event_handler: reclaimed all bufs
+[21003.470075] q6asm_callback: payload size of 8 is less than expected.
+[21003.474241] q6asm_callback: payload size of 8 is less than expected.
+[21003.520590] type=1400 audit(1558326617.417:13719): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21003.520612] type=1400 audit(1558326619.667:13720): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21003.520922] type=1400 audit(1558326619.667:13720): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21003.520943] type=1400 audit(1558326619.667:13721): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21003.521725] type=1400 audit(1558326619.667:13721): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21003.521747] type=1400 audit(1558326619.667:13722): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21003.695384] type=1400 audit(1558326619.667:13722): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21003.695418] type=1400 audit(1558326619.837:13723): avc: denied { ioctl } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21003.749262] type=1400 audit(1558326619.837:13723): avc: denied { ioctl } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21003.749293] type=1400 audit(1558326619.897:13724): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.099778] type=1400 audit(1558326619.897:13724): avc: denied { ioctl } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.099806] type=1400 audit(1558326621.247:13725): avc: denied { read write } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.169110] type=1400 audit(1558326621.247:13725): avc: denied { read write } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.169133] type=1400 audit(1558326621.307:13726): avc: denied { read write } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.765920] type=1400 audit(1558326621.307:13726): avc: denied { read write } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.765955] type=1400 audit(1558326621.907:13727): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.766533] type=1400 audit(1558326621.907:13727): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21005.766559] type=1400 audit(1558326621.907:13728): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21006.024109] bq2560x: bq2560x_check_batt_capacity: Battery capacity changed, new capacity = 47
+[21006.043964] type=1400 audit(1558326621.907:13728): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21006.043992] type=1400 audit(1558326622.197:13729): avc: denied { read } for pid=463 comm="HWC_UeventThrea" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=netlink_kobject_uevent_socket permissive=1
+[21006.053564] healthd: battery l=47 v=3729 t=38.9 h=2 st=3 c=691 fc=3000 chg=
+[21009.724602] type=1400 audit(1558326622.197:13729): avc: denied { read } for pid=463 comm="HWC_UeventThrea" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=netlink_kobject_uevent_socket permissive=1
+[21009.724632] type=1400 audit(1558326625.867:13730): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21010.064575] type=1400 audit(1558326625.867:13730): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21010.064596] type=1400 audit(1558326626.207:13731): avc: denied { read } for pid=1595 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21010.065191] type=1400 audit(1558326626.207:13731): avc: denied { read } for pid=1595 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21010.065211] type=1400 audit(1558326626.207:13732): avc: denied { open } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21010.065342] type=1400 audit(1558326626.207:13732): avc: denied { open } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21010.065355] type=1400 audit(1558326626.207:13733): avc: denied { getattr } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21010.079500] type=1400 audit(1558326626.207:13733): avc: denied { getattr } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21010.079524] type=1400 audit(1558326626.227:13734): avc: denied { ioctl } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21010.080865] type=1400 audit(1558326626.227:13734): avc: denied { ioctl } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21010.080885] type=1400 audit(1558326626.227:13735): avc: denied { read write } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21010.551885] max_timeout is 50000
+[21010.587520] max_timeout is 50000
+[21010.727375] max_timeout is 50000
+[21010.758726] max_timeout is 50000
+[21011.003687] max_timeout is 50000
+[21011.035409] max_timeout is 50000
+[21011.188146] max_timeout is 50000
+[21011.220034] max_timeout is 50000
+[21011.317136] max_timeout is 50000
+[21011.348038] max_timeout is 50000
+[21011.644921] max_timeout is 50000
+[21011.676254] max_timeout is 50000
+[21011.908202] max_timeout is 50000
+[21011.939924] max_timeout is 50000
+[21012.289013] max_timeout is 50000
+[21012.321986] max_timeout is 50000
+[21012.484143] max_timeout is 50000
+[21012.522589] max_timeout is 50000
+[21012.768223] max_timeout is 50000
+[21012.799998] max_timeout is 50000
+[21013.693393] type=1400 audit(1558326626.227:13735): avc: denied { read write } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21013.693423] type=1400 audit(1558326629.837:13736): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21013.693611] type=1400 audit(1558326629.837:13736): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21013.693630] type=1400 audit(1558326629.837:13737): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21013.693747] type=1400 audit(1558326629.837:13737): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21013.693766] type=1400 audit(1558326629.837:13738): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21015.674311] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[21015.674328] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[21015.674353] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[21015.674369] ->action():           (null)
+[21015.674375] IRQ_NOPROBE set
+[21015.674380] IRQ_NOREQUEST set
+[21015.674385] IRQ_NOTHREAD set
+[21015.769467] type=1400 audit(1558326629.837:13738): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/9426/mem" dev="debugfs" ino=756823 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21015.769502] type=1400 audit(1558326631.917:13739): avc: denied { read } for pid=471 comm="HwBinder:471_1" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21017.329014] type=1400 audit(1558326631.917:13739): avc: denied { read } for pid=471 comm="HwBinder:471_1" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21017.329050] type=1400 audit(1558326633.477:13740): avc: denied { write } for pid=471 comm="android.hardwar" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21017.570182] type=1400 audit(1558326633.477:13740): avc: denied { write } for pid=471 comm="android.hardwar" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21017.570203] type=1400 audit(1558326633.717:13741): avc: denied { read } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21017.636927] type=1400 audit(1558326633.717:13741): avc: denied { read } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21017.636948] type=1400 audit(1558326633.777:13742): avc: denied { read } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21018.197137] type=1400 audit(1558326633.777:13742): avc: denied { read } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21018.197167] type=1400 audit(1558326634.337:13743): avc: denied { write } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21019.171345] type=1400 audit(1558326634.337:13743): avc: denied { write } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21019.171372] type=1400 audit(1558326635.317:13744): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21019.171581] type=1400 audit(1558326635.317:13744): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21019.171601] type=1400 audit(1558326635.317:13745): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21024.459347] max_timeout is 50000
+[21024.481332] max_timeout is 50000
+[21026.983991] max_timeout is 50000
+[21027.016969] max_timeout is 50000
+[21027.734149] max_timeout is 50000
+[21027.766280] max_timeout is 50000
+[21028.710376] max_timeout is 50000
+[21028.732184] max_timeout is 50000
+[21031.255022] max_timeout is 50000
+[21031.285996] max_timeout is 50000
+[21031.791124] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[21031.791137] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[21031.791155] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[21031.791168] ->action():           (null)
+[21031.791174] IRQ_NOPROBE set
+[21031.791179] IRQ_NOREQUEST set
+[21031.791184] IRQ_NOTHREAD set
+[21031.807760] max_timeout is 50000
+[21031.839372] max_timeout is 50000
+[21033.438268] type=1400 audit(1558326635.317:13745): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21033.438296] type=1400 audit(1558326649.587:13746): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21033.909286] type=1400 audit(1558326649.587:13746): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21033.909313] type=1400 audit(1558326650.057:13747): avc: denied { ioctl } for pid=449 comm="writer" path="/dev/msm_audio_cal" dev="tmpfs" ino=5210 ioctlcmd=61cb scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21033.920595] q6asm_callback: payload size of 8 is less than expected.
+[21033.921094] q6asm_callback: payload size of 8 is less than expected.
+[21033.921599] q6asm_callback: payload size of 8 is less than expected.
+[21033.976956] q6asm_callback: payload size of 8 is less than expected.
+[21034.370395] max_timeout is 50000
+[21034.401316] max_timeout is 50000
+[21035.775262] type=1400 audit(1558326650.057:13747): avc: denied { ioctl } for pid=449 comm="writer" path="/dev/msm_audio_cal" dev="tmpfs" ino=5210 ioctlcmd=61cb scontext=u:r:hal_audio_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21035.775292] type=1400 audit(1558326651.917:13748): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21036.946178] type=1400 audit(1558326651.917:13748): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21036.946202] type=1400 audit(1558326653.087:13749): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21037.098322] q6asm_callback: payload size of 8 is less than expected.
+[21038.948769] type=1400 audit(1558326653.087:13749): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21038.948796] type=1400 audit(1558326655.097:13750): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21042.877925] type=1400 audit(1558326655.097:13750): avc: denied { call } for pid=463 comm="composer@2.1-se" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21042.877950] type=1400 audit(1558326659.027:13751): avc: denied { read } for pid=506 comm="imsqmidaemon" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21042.906287] type=1400 audit(1558326659.027:13751): avc: denied { read } for pid=506 comm="imsqmidaemon" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21042.906315] type=1400 audit(1558326659.047:13752): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21042.906484] type=1400 audit(1558326659.047:13752): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21042.906502] type=1400 audit(1558326659.047:13753): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21042.976314] type=1400 audit(1558326659.047:13753): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21042.976336] type=1400 audit(1558326659.127:13754): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21042.996729] type=1400 audit(1558326659.127:13754): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21042.996752] type=1400 audit(1558326659.137:13755): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21044.786941] type=1400 audit(1558326659.137:13755): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21044.786970] type=1400 audit(1558326660.927:13756): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21060.107821] max_timeout is 50000
+[21060.139477] max_timeout is 50000
+[21060.395329] type=1400 audit(1558326660.927:13756): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21060.395355] type=1400 audit(1558326676.537:13757): avc: denied { read } for pid=17663 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.395799] type=1400 audit(1558326676.537:13757): avc: denied { read } for pid=17663 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.395826] type=1400 audit(1558326676.537:13758): avc: denied { open } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.396989] type=1400 audit(1558326676.537:13758): avc: denied { open } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.397017] type=1400 audit(1558326676.537:13759): avc: denied { getattr } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.419036] type=1400 audit(1558326676.537:13759): avc: denied { getattr } for pid=17663 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.419064] type=1400 audit(1558326676.567:13760): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.424864] type=1400 audit(1558326676.567:13760): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.424890] type=1400 audit(1558326676.567:13761): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.443629] type=1400 audit(1558326676.567:13761): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.443672] type=1400 audit(1558326676.587:13762): avc: denied { read } for pid=2320 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.445067] type=1400 audit(1558326676.587:13762): avc: denied { read } for pid=2320 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.452533] type=1400 audit(1558326676.587:13763): avc: denied { open } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.452765] type=1400 audit(1558326676.587:13763): avc: denied { open } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.452787] type=1400 audit(1558326676.587:13764): avc: denied { getattr } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.452925] type=1400 audit(1558326676.587:13764): avc: denied { getattr } for pid=2320 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21060.452941] type=1400 audit(1558326676.587:13765): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.453057] type=1400 audit(1558326676.587:13765): avc: denied { ioctl } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.453071] type=1400 audit(1558326676.587:13766): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.458162] type=1400 audit(1558326676.587:13766): avc: denied { ioctl } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=915 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.458191] type=1400 audit(1558326676.597:13767): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.719796] type=1400 audit(1558326676.597:13767): avc: denied { read write } for pid=2320 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.719817] type=1400 audit(1558326676.867:13768): avc: denied { read } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21060.743187] q6asm_callback: payload size of 8 is less than expected.
+[21060.743544] q6asm_callback: payload size of 8 is less than expected.
+[21060.790907] q6asm_callback: payload size of 8 is less than expected.
+[21060.841801] q6asm_callback: payload size of 8 is less than expected.
+[21060.914262] type=1400 audit(1558326676.867:13768): avc: denied { read } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21060.914286] type=1400 audit(1558326677.057:13769): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=902 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.914577] type=1400 audit(1558326677.057:13769): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=902 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21060.914596] type=1400 audit(1558326677.057:13770): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21061.279796] type=1400 audit(1558326677.057:13770): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21061.279815] type=1400 audit(1558326677.427:13771): avc: denied { write } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21065.013742] type=1400 audit(1558326677.427:13771): avc: denied { write } for pid=629 comm="lowi-server" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=netlink_generic_socket permissive=1
+[21065.013777] type=1400 audit(1558326681.157:13772): avc: denied { ioctl } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21065.070793] type=1400 audit(1558326681.157:13772): avc: denied { ioctl } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21065.070814] type=1400 audit(1558326681.217:13773): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21065.071307] type=1400 audit(1558326681.217:13773): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21065.071329] type=1400 audit(1558326681.217:13774): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21065.071476] type=1400 audit(1558326681.217:13774): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21065.071491] type=1400 audit(1558326681.217:13775): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21065.124555] q6asm_callback: payload size of 8 is less than expected.
+[21065.124640] event_handler: reclaimed all bufs
+[21065.124735] q6asm_callback: payload size of 8 is less than expected.
+[21065.127812] q6asm_callback: payload size of 8 is less than expected.
+[21065.623522] max_timeout is 50000
+[21065.654816] max_timeout is 50000
+[21065.723928] type=1400 audit(1558326681.217:13775): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21065.723965] type=1400 audit(1558326681.867:13776): avc: denied { read write } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21065.782605] type=1400 audit(1558326681.867:13776): avc: denied { read write } for pid=9426 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21065.782631] type=1400 audit(1558326681.927:13777): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21065.782825] type=1400 audit(1558326681.927:13777): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21065.782841] type=1400 audit(1558326681.927:13778): avc: denied { read } for pid=471 comm="HwBinder:471_1" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21065.903623] type=1400 audit(1558326681.927:13778): avc: denied { read } for pid=471 comm="HwBinder:471_1" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21065.903657] type=1400 audit(1558326682.047:13779): avc: denied { write } for pid=471 comm="sensors@1.0-ser" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21066.128435] healthd: battery l=47 v=3757 t=38.6 h=2 st=3 c=441 fc=3000 chg=
+[21066.603501] max_timeout is 50000
+[21066.634483] max_timeout is 50000
+[21066.817256] type=1400 audit(1558326682.047:13779): avc: denied { write } for pid=471 comm="sensors@1.0-ser" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:hal_sensors_default:s0 tclass=socket permissive=1
+[21066.817287] type=1400 audit(1558326682.957:13780): avc: denied { read } for pid=5066 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21066.817760] type=1400 audit(1558326682.957:13780): avc: denied { read } for pid=5066 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21066.817785] type=1400 audit(1558326682.967:13781): avc: denied { open } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21066.824995] type=1400 audit(1558326682.967:13781): avc: denied { open } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21066.825027] type=1400 audit(1558326682.967:13782): avc: denied { getattr } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21067.754482] max_timeout is 50000
+[21067.786162] max_timeout is 50000
+[21068.296092] type=1400 audit(1558326682.967:13782): avc: denied { getattr } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21068.296122] type=1400 audit(1558326684.437:13783): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21068.609571] q6asm_callback: payload size of 8 is less than expected.
+[21068.611457] q6asm_callback: payload size of 8 is less than expected.
+[21068.630765] type=1400 audit(1558326684.437:13783): avc: denied { read write } for pid=17663 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21068.630804] type=1400 audit(1558326684.767:13784): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21068.631017] type=1400 audit(1558326684.767:13784): avc: denied { write } for pid=463 comm="composer@2.1-se" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21068.631036] type=1400 audit(1558326684.767:13785): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21068.647477] q6asm_callback: payload size of 8 is less than expected.
+[21068.693027] q6asm_callback: payload size of 8 is less than expected.
+[21070.208742] type=1400 audit(1558326684.767:13785): avc: denied { open } for pid=463 comm="composer@2.1-se" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.208764] type=1400 audit(1558326686.357:13786): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.286290] q6asm_callback: payload size of 8 is less than expected.
+[21070.286334] event_handler: reclaimed all bufs
+[21070.286391] q6asm_callback: payload size of 8 is less than expected.
+[21070.289576] q6asm_callback: payload size of 8 is less than expected.
+[21070.527712] type=1400 audit(1558326686.357:13786): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=916 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.527733] type=1400 audit(1558326686.667:13787): avc: denied { open } for pid=24487 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.533411] type=1400 audit(1558326686.667:13787): avc: denied { open } for pid=24487 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.533435] type=1400 audit(1558326686.677:13788): avc: denied { execute } for pid=24487 comm="RenderThread" path="/vendor/lib64/libqdMetaData.so" dev="mmcblk0p48" ino=2779 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.540516] type=1400 audit(1558326686.677:13788): avc: denied { execute } for pid=24487 comm="RenderThread" path="/vendor/lib64/libqdMetaData.so" dev="mmcblk0p48" ino=2779 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.540538] type=1400 audit(1558326686.687:13789): avc: denied { read } for pid=24487 comm="RenderThread" name="gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.540708] type=1400 audit(1558326686.687:13789): avc: denied { read } for pid=24487 comm="RenderThread" name="gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.540730] type=1400 audit(1558326686.687:13790): avc: denied { open } for pid=24487 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.542029] type=1400 audit(1558326686.687:13790): avc: denied { open } for pid=24487 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.542052] type=1400 audit(1558326686.687:13791): avc: denied { getattr } for pid=24487 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.758819] type=1400 audit(1558326686.687:13791): avc: denied { getattr } for pid=24487 comm="RenderThread" path="/sys/devices/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk" dev="sysfs" ino=21817 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21070.758843] type=1400 audit(1558326686.907:13792): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.925206] type=1400 audit(1558326686.907:13792): avc: denied { ioctl } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.925230] type=1400 audit(1558326687.067:13793): avc: denied { read } for pid=1595 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.925474] type=1400 audit(1558326687.067:13793): avc: denied { read } for pid=1595 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.925491] type=1400 audit(1558326687.067:13794): avc: denied { open } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.925596] type=1400 audit(1558326687.067:13794): avc: denied { open } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.925609] type=1400 audit(1558326687.067:13795): avc: denied { getattr } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.972102] type=1400 audit(1558326687.067:13795): avc: denied { getattr } for pid=1595 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21070.972129] type=1400 audit(1558326687.117:13796): avc: denied { ioctl } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.973908] type=1400 audit(1558326687.117:13796): avc: denied { ioctl } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.973928] type=1400 audit(1558326687.117:13797): avc: denied { read write } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.983152] type=1400 audit(1558326687.117:13797): avc: denied { read write } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21070.983243] type=1400 audit(1558326687.127:13798): avc: denied { ioctl } for pid=5066 comm=474C2075706461746572 path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=907 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21072.484738] type=1400 audit(1558326687.127:13798): avc: denied { ioctl } for pid=5066 comm=474C2075706461746572 path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=907 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21072.484761] type=1400 audit(1558326688.627:13799): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21072.647215] type=1400 audit(1558326688.627:13799): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21072.647237] type=1400 audit(1558326688.787:13800): avc: denied { read } for pid=24557 comm="bash" name="version" dev="proc" ino=4026532300 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[21072.647997] type=1400 audit(1558326688.787:13800): avc: denied { read } for pid=24557 comm="bash" name="version" dev="proc" ino=4026532300 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[21072.648012] type=1400 audit(1558326688.797:13801): avc: denied { open } for pid=24557 comm="bash" path="/proc/version" dev="proc" ino=4026532300 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[21073.152891] type=1400 audit(1558326688.797:13801): avc: denied { open } for pid=24557 comm="bash" path="/proc/version" dev="proc" ino=4026532300 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+[21073.152912] type=1400 audit(1558326689.297:13802): avc: denied { read } for pid=24550 comm="bash" name="hwmon" dev="sysfs" ino=16493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[21073.153287] type=1400 audit(1558326689.297:13802): avc: denied { read } for pid=24550 comm="bash" name="hwmon" dev="sysfs" ino=16493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[21073.153300] type=1400 audit(1558326689.297:13803): avc: denied { open } for pid=24550 comm="bash" path="/sys/class/hwmon" dev="sysfs" ino=16493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[21073.157476] type=1400 audit(1558326689.297:13803): avc: denied { open } for pid=24550 comm="bash" path="/sys/class/hwmon" dev="sysfs" ino=16493 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[21073.157498] type=1400 audit(1558326689.297:13804): avc: denied { read } for pid=24632 comm="bash" name="name" dev="sysfs" ino=25693 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21073.157959] type=1400 audit(1558326689.297:13804): avc: denied { read } for pid=24632 comm="bash" name="name" dev="sysfs" ino=25693 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21073.157976] type=1400 audit(1558326689.307:13805): avc: denied { open } for pid=24632 comm="bash" path="/sys/devices/virtual/hwmon/hwmon1/name" dev="sysfs" ino=25693 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21075.701947] max_timeout is 50000
+[21075.738400] max_timeout is 50000
+[21075.783205] type=1400 audit(1558326689.307:13805): avc: denied { open } for pid=24632 comm="bash" path="/sys/devices/virtual/hwmon/hwmon1/name" dev="sysfs" ino=25693 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21075.783233] type=1400 audit(1558326691.937:13806): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21075.788037] type=1400 audit(1558326691.937:13806): avc: denied { ioctl } for pid=486 comm="sensors.qcom" path="/dev/sensors" dev="tmpfs" ino=12573 ioctlcmd=6403 scontext=u:r:init:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21075.788061] type=1400 audit(1558326691.937:13807): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21075.844575] type=1400 audit(1558326691.937:13807): avc: denied { write } for pid=486 comm="sensors.qcom" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21075.844638] type=1400 audit(1558326691.987:13808): avc: denied { ioctl } for pid=24487 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21075.992365] max_timeout is 50000
+[21076.023428] max_timeout is 50000
+[21076.200008] max_timeout is 50000
+[21076.233755] max_timeout is 50000
+[21076.391406] max_timeout is 50000
+[21076.423619] max_timeout is 50000
+[21076.636341] max_timeout is 50000
+[21076.647197] type=1400 audit(1558326691.987:13808): avc: denied { ioctl } for pid=24487 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21076.647231] type=1400 audit(1558326692.096:13809): avc: denied { ioctl } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21076.668747] max_timeout is 50000
+[21076.820150] max_timeout is 50000
+[21076.851964] max_timeout is 50000
+[21077.171666] max_timeout is 50000
+[21077.202768] max_timeout is 50000
+[21077.470903] max_timeout is 50000
+[21077.505231] max_timeout is 50000
+[21077.512585] type=1400 audit(1558326692.096:13809): avc: denied { ioctl } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21077.512612] type=1400 audit(1558326692.966:13810): avc: denied { read write } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21078.162059] max_timeout is 50000
+[21078.192929] max_timeout is 50000
+[21078.565271] max_timeout is 50000
+[21078.597094] max_timeout is 50000
+[21078.779845] max_timeout is 50000
+[21078.811889] max_timeout is 50000
+[21078.991643] max_timeout is 50000
+[21079.026305] max_timeout is 50000
+[21079.262493] max_timeout is 50000
+[21079.293568] max_timeout is 50000
+[21079.589509] max_timeout is 50000
+[21079.621815] max_timeout is 50000
+[21079.911618] max_timeout is 50000
+[21079.942810] max_timeout is 50000
+[21080.133656] max_timeout is 50000
+[21080.164710] max_timeout is 50000
+[21080.381975] max_timeout is 50000
+[21080.413618] max_timeout is 50000
+[21081.443020] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[21081.443035] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[21081.443058] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[21081.443071] ->action():           (null)
+[21081.443077] IRQ_NOPROBE set
+[21081.443082] IRQ_NOREQUEST set
+[21081.443087] IRQ_NOTHREAD set
+[21081.451807] max_timeout is 50000
+[21081.483072] max_timeout is 50000
+[21081.614060] max_timeout is 50000
+[21081.644855] max_timeout is 50000
+[21082.180281] max_timeout is 50000
+[21082.211016] max_timeout is 50000
+[21082.822733] max_timeout is 50000
+[21082.855759] max_timeout is 50000
+[21082.992815] max_timeout is 50000
+[21083.024773] max_timeout is 50000
+[21083.293387] max_timeout is 50000
+[21083.327191] max_timeout is 50000
+[21083.513993] max_timeout is 50000
+[21083.545057] max_timeout is 50000
+[21083.715269] max_timeout is 50000
+[21083.746242] max_timeout is 50000
+[21083.771500] type=1400 audit(1558326692.966:13810): avc: denied { read write } for pid=5066 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21083.771527] type=1400 audit(1558326699.226:13811): avc: denied { read } for pid=506 comm="imsqmidaemon" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21083.822316] type=1400 audit(1558326699.226:13811): avc: denied { read } for pid=506 comm="imsqmidaemon" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=socket permissive=1
+[21083.822384] type=1400 audit(1558326699.276:13812): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21083.830586] type=1400 audit(1558326699.276:13812): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21083.830616] type=1400 audit(1558326699.276:13813): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21083.886368] type=1400 audit(1558326699.276:13813): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21083.886395] type=1400 audit(1558326699.336:13814): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21083.903551] type=1400 audit(1558326699.336:13814): avc: denied { call } for pid=884 comm="IzatProvider" scontext=u:r:system_server:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21083.903634] type=1400 audit(1558326699.356:13815): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21083.936642] type=1400 audit(1558326699.356:13815): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21083.936665] type=1400 audit(1558326699.386:13816): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=938632 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21083.936824] type=1400 audit(1558326699.386:13816): avc: denied { read } for pid=468 comm="memtrack@1.0-se" name="mem" dev="debugfs" ino=938632 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21083.936841] type=1400 audit(1558326699.386:13817): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/24487/mem" dev="debugfs" ino=938632 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21083.936954] type=1400 audit(1558326699.386:13817): avc: denied { open } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/24487/mem" dev="debugfs" ino=938632 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21083.936992] type=1400 audit(1558326699.386:13818): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/24487/mem" dev="debugfs" ino=938632 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21083.937933] max_timeout is 50000
+[21083.968674] max_timeout is 50000
+[21084.038621] type=1400 audit(1558326699.386:13818): avc: denied { getattr } for pid=468 comm="memtrack@1.0-se" path="/sys/kernel/debug/kgsl/proc/24487/mem" dev="debugfs" ino=938632 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+[21084.038640] type=1400 audit(1558326699.496:13819): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21084.315439] max_timeout is 50000
+[21084.346825] max_timeout is 50000
+[21084.467019] max_timeout is 50000
+[21084.498369] max_timeout is 50000
+[21085.170865] max_timeout is 50000
+[21085.202238] max_timeout is 50000
+[21085.406983] max_timeout is 50000
+[21085.438423] max_timeout is 50000
+[21085.739701] max_timeout is 50000
+[21085.778448] max_timeout is 50000
+[21086.270966] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[21086.270979] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[21086.270998] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[21086.271010] ->action():           (null)
+[21086.271016] IRQ_NOPROBE set
+[21086.271021] IRQ_NOREQUEST set
+[21086.271026] IRQ_NOTHREAD set
+[21086.275044] max_timeout is 50000
+[21086.306687] max_timeout is 50000
+[21086.656195] max_timeout is 50000
+[21086.687199] max_timeout is 50000
+[21087.236247] max_timeout is 50000
+[21087.267751] max_timeout is 50000
+[21087.464769] type=1400 audit(1558326699.496:13819): avc: denied { call } for pid=1735 comm="MainEventThread" scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21087.464788] type=1400 audit(1558326702.916:13820): avc: denied { read } for pid=5066 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21087.464943] type=1400 audit(1558326702.916:13820): avc: denied { read } for pid=5066 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21087.464956] type=1400 audit(1558326702.916:13821): avc: denied { open } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21087.465035] type=1400 audit(1558326702.916:13821): avc: denied { open } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21087.465047] type=1400 audit(1558326702.916:13822): avc: denied { getattr } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21087.508039] type=1400 audit(1558326702.916:13822): avc: denied { getattr } for pid=5066 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21087.508062] type=1400 audit(1558326702.966:13823): avc: denied { read write } for pid=24487 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21087.627836] type=1400 audit(1558326702.966:13823): avc: denied { read write } for pid=24487 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21087.627858] type=1400 audit(1558326703.076:13824): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21088.686516] type=1400 audit(1558326703.076:13824): avc: denied { read write } for pid=884 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21088.686538] type=1400 audit(1558326704.136:13825): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21088.691158] type=1400 audit(1558326704.136:13825): avc: denied { read } for pid=9426 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21088.692099] type=1400 audit(1558326704.136:13826): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21088.692310] type=1400 audit(1558326704.136:13826): avc: denied { open } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21088.692328] type=1400 audit(1558326704.136:13827): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21089.996770] max_timeout is 50000
+[21090.028055] max_timeout is 50000
+[21090.628060] type=1400 audit(1558326704.136:13827): avc: denied { getattr } for pid=9426 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21090.628091] type=1400 audit(1558326706.086:13828): avc: denied { call } for pid=463 comm="HwBinder:463_2" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21095.119783] max_timeout is 50000
+[21095.155275] max_timeout is 50000
+[21095.562025] max_timeout is 50000
+[21095.593269] max_timeout is 50000
+[21096.689639] type=1400 audit(1558326706.086:13828): avc: denied { call } for pid=463 comm="HwBinder:463_2" scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+[21096.689667] type=1400 audit(1558326712.136:13829): avc: denied { read write } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21096.890305] type=1400 audit(1558326712.136:13829): avc: denied { read write } for pid=1595 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21096.890333] type=1400 audit(1558326712.346:13830): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21096.890589] type=1400 audit(1558326712.346:13830): avc: denied { lock } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21096.890605] type=1400 audit(1558326712.346:13831): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21097.531169] max_timeout is 50000
+[21097.562342] max_timeout is 50000
+[21097.570083] type=1400 audit(1558326712.346:13831): avc: denied { getattr } for pid=560 comm="rild" path="/data/vendor/radio/qcril.db" dev="mmcblk0p49" ino=73997 scontext=u:r:rild:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+[21097.570110] type=1400 audit(1558326713.026:13832): avc: denied { write } for pid=463 comm="HwBinder:463_2" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21097.570292] type=1400 audit(1558326713.026:13832): avc: denied { write } for pid=463 comm="HwBinder:463_2" name="idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21097.570440] type=1400 audit(1558326713.026:13833): avc: denied { open } for pid=463 comm="HwBinder:463_2" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21097.843749] max_timeout is 50000
+[21097.879121] max_timeout is 50000
+[21098.053313] max_timeout is 50000
+[21098.087314] max_timeout is 50000
+[21098.499380] max_timeout is 50000
+[21098.532768] max_timeout is 50000
+[21100.667138] max_timeout is 50000
+[21100.699374] max_timeout is 50000
+[21100.816910] max_timeout is 50000
+[21100.848153] max_timeout is 50000
+[21100.990591] max_timeout is 50000
+[21101.021645] max_timeout is 50000
+[21101.167852] max_timeout is 50000
+[21101.198740] max_timeout is 50000
+[21101.354777] max_timeout is 50000
+[21101.387005] max_timeout is 50000
+[21101.532619] max_timeout is 50000
+[21101.563966] max_timeout is 50000
+[21101.732188] max_timeout is 50000
+[21101.763264] max_timeout is 50000
+[21101.911930] max_timeout is 50000
+[21101.945148] max_timeout is 50000
+[21102.392941] max_timeout is 50000
+[21102.424992] max_timeout is 50000
+[21103.232164] max_timeout is 50000
+[21103.265456] max_timeout is 50000
+[21103.715617] max_timeout is 50000
+[21103.748298] max_timeout is 50000
+[21104.296141] max_timeout is 50000
+[21104.327062] max_timeout is 50000
+[21104.540218] max_timeout is 50000
+[21104.571742] max_timeout is 50000
+[21104.774837] max_timeout is 50000
+[21104.808491] max_timeout is 50000
+[21104.856040] irq 6, desc: ffffffc0b9e99200, depth: 0, count: 0, unhandled: 0
+[21104.856083] ->handle_irq():  ffffffc0003eb880, msm_gpio_irq_handler+0x0/0x17c
+[21104.856135] ->irq_data.chip(): ffffffc00179aa30, gic_chip+0x0/0xe8
+[21104.856149] ->action():           (null)
+[21104.856155] IRQ_NOPROBE set
+[21104.856160] IRQ_NOREQUEST set
+[21104.856165] IRQ_NOTHREAD set
+[21105.153991] max_timeout is 50000
+[21105.185556] max_timeout is 50000
+[21105.387065] max_timeout is 50000
+[21105.418209] max_timeout is 50000
+[21105.691800] max_timeout is 50000
+[21105.722755] max_timeout is 50000
+[21105.990854] max_timeout is 50000
+[21106.030132] max_timeout is 50000
+[21106.187234] bq27426- fg_dump_registers: BQ27426 --RSOC:47, Volt:3793, Current:-318, Temperature:385
+[21106.187250] bq27426- fg_dump_registers: Reg[00 -70] = 0x0202, 
+[21106.207849] max_timeout is 50000
+[21106.223514] 0x0C2B, 0x0ED1, 
+[21106.239254] max_timeout is 50000
+[21106.258459] 0x0109, 0x04F4, 0x0A4A, 0x0488, 0x09BA, 0xFEC2, 0x0AD7, 0xFB4A, 0x2161, 0x002F, 0x0C40, 0x0052, 0x049A, 0x0488, 0x09F0, 0x09BA, 0x002F, 0x01DA, 0x01E0, 0x0557, 0xFFFF, 0x3C8C, 
+[21106.681683] bq2560x: bq2560x_dump_status: FG current:318000
+[21106.681697] bq2560x: bq2560x_dump_status: bq Reg[0x00 -0x0B] = 0x13, 0x0A, 0x19, 0x30, 0x88, 0x8F, 0x55, 0x4C, 0x00, 0x00, 0x03, 0x11, 
+[21106.727380] max_timeout is 50000
+[21106.758961] max_timeout is 50000
+[21107.740854] max_timeout is 50000
+[21107.771667] max_timeout is 50000
+[21107.973712] type=1400 audit(1558326713.026:13833): avc: denied { open } for pid=463 comm="HwBinder:463_2" path="/sys/devices/virtual/graphics/fb0/idle_time" dev="sysfs" ino=20999 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[21107.973737] type=1400 audit(1558326723.426:13834): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21108.906725] init: Untracked pid 24819 exited with status 0
+[21109.155811] type=1400 audit(1558326723.426:13834): avc: denied { ioctl } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21109.155841] type=1400 audit(1558326724.606:13835): avc: denied { read } for pid=24116 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21109.156015] type=1400 audit(1558326724.606:13835): avc: denied { read } for pid=24116 comm="RenderThread" name="gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21109.156030] type=1400 audit(1558326724.606:13836): avc: denied { open } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21109.157736] type=1400 audit(1558326724.606:13836): avc: denied { open } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21109.157758] type=1400 audit(1558326724.606:13837): avc: denied { getattr } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21109.187784] type=1400 audit(1558326724.606:13837): avc: denied { getattr } for pid=24116 comm="RenderThread" path="/vendor/lib64/hw/gralloc.msm8937.so" dev="mmcblk0p48" ino=2934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1
+[21109.187812] type=1400 audit(1558326724.636:13838): avc: denied { ioctl } for pid=24116 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21109.187986] type=1400 audit(1558326724.636:13838): avc: denied { ioctl } for pid=24116 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 ioctlcmd=94a scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21109.188003] type=1400 audit(1558326724.636:13839): avc: denied { read write } for pid=24116 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21109.324358] type=1400 audit(1558326724.636:13839): avc: denied { read write } for pid=24116 comm="RenderThread" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+[21109.324382] type=1400 audit(1558326724.776:13840): avc: denied { read write } for pid=490 comm="surfaceflinger" path="/dev/kgsl-3d0" dev="tmpfs" ino=391 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
